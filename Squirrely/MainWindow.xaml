@@ -9,6 +9,32 @@
         Title="Squirrely" 
         Height="350" 
         Width="525">
+    <controls:MetroWindow.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Icons.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </controls:MetroWindow.Resources>
+<controls:MetroWindow.RightWindowCommands>
+  <controls:WindowCommands>
+    <Button Content="settings" />
+    <Button>
+      <StackPanel Orientation="Horizontal">
+        <Rectangle Width="20" Height="20"
+                   Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+          <Rectangle.OpacityMask>
+            <VisualBrush Stretch="Fill"
+                         Visual="{DynamicResource appbar_cupcake}" />
+          </Rectangle.OpacityMask>
+        </Rectangle>
+        <TextBlock Margin="4 0 0 0"
+                   VerticalAlignment="Center"
+                   Text="deploy cupcakes" />
+      </StackPanel>
+    </Button>
+  </controls:WindowCommands>
+</controls:MetroWindow.RightWindowCommands>
     <Grid>
         
     </Grid>
