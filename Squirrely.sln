@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.22609.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squirrely", "Squirrely\Squirrely.csproj", "{E614BE17-FDEF-47D2-BA95-F0D297B07D77}"
 EndProject
@@ -9,11 +9,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		nuget.cmd = nuget.cmd
+		RELEASE_NOTES.md = RELEASE_NOTES.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{08AE465F-6135-4769-9E0B-27D27A41B24A}"
 	ProjectSection(SolutionItems) = preProject
 		build.cmd = build.cmd
+		build.fsx = build.fsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C5DEB4CB-BDC1-4762-A5A4-3DEC7A1CE30A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\nuget.exe = .nuget\nuget.exe
 	EndProjectSection
 EndProject
 Global
