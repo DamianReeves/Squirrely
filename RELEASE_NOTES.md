@@ -1,3 +1,6 @@
+### 0.4.0 - Unreleased
+* Make it dark
+
 ### 0.3.0 - Unreleased
 * Make it orange
 

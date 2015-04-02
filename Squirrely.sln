@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{25477F
 		.paket\paket.targets = .paket\paket.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squirrely.Dispatcher", "src\Squirrely.Dispatcher\Squirrely.Dispatcher.csproj", "{D66F6D9A-D930-41CD-B54E-1D6A1836177F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{E614BE17-FDEF-47D2-BA95-F0D297B07D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E614BE17-FDEF-47D2-BA95-F0D297B07D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E614BE17-FDEF-47D2-BA95-F0D297B07D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66F6D9A-D930-41CD-B54E-1D6A1836177F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66F6D9A-D930-41CD-B54E-1D6A1836177F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66F6D9A-D930-41CD-B54E-1D6A1836177F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66F6D9A-D930-41CD-B54E-1D6A1836177F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
