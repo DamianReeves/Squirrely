@@ -4,10 +4,10 @@ using System.Reflection;
 [assembly: AssemblyTitleAttribute("Squirrely")]
 [assembly: AssemblyProductAttribute("Squirrely")]
 [assembly: AssemblyDescriptionAttribute("A simple application to try out Squirrel for Windows.")]
-[assembly: AssemblyVersionAttribute("0.1.0")]
-[assembly: AssemblyFileVersionAttribute("0.1.0")]
+[assembly: AssemblyVersionAttribute("0.3.0")]
+[assembly: AssemblyFileVersionAttribute("0.3.0")]
 namespace System {
     internal static class AssemblyVersionInformation {
-        internal const string Version = "0.1.0";
+        internal const string Version = "0.3.0";
     }
 }

@@ -192,3 +192,4 @@ ModelManifest.xml
 # Custom
 paket-files
 .paket/paket.exe
+[Rr]eleases/

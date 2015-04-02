@@ -157,6 +157,20 @@ Target "PublishNuget" (fun _ ->
             WorkingDir = "bin" })
 )
 
+// --------------------------------------------------------------------------------------
+// Build Squirrel package
+
+Target "Releasify" (fun _ ->
+  let pkg = "bin" @@ (sprintf "%s.%s.nupkg" project release.NugetVersion)
+  let result = directExec (fun startInfo ->
+      //startInfo.WorkingDirectory <- @"packages\squirrel.windows\tools\"
+      startInfo.FileName <- (@"packages\squirrel.windows\tools\" @@ "squirrel.exe")
+      startInfo.Arguments <- (sprintf "--releasify %s" pkg)
+    )
+  match result with
+  | true -> log "Squirrel succeeded!"
+  | false -> log "Squirrel failed"
+)
 
 
 Target "BuildPackage" DoNothing
@@ -182,8 +196,7 @@ Target "All" DoNothing
 //  =?> ("SourceLink", Pdbstr.tryFind().IsSome )
 #endif
   ==> "NuGet"
-  ==> "BuildPackage"
-
+  ==> "BuildPackage"  
 //"CleanDocs"
 //  ==> "GenerateHelp"
 //  ==> "GenerateReferenceDocs"
@@ -202,4 +215,7 @@ Target "All" DoNothing
   ==> "PublishNuget"
 //  ==> "Release"
 
-RunTargetOrDefault "BuildPackage"
+"BuildPackage"
+  ==> "Releasify"
+
+RunTargetOrDefault "Releasify"
