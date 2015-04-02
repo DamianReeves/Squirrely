@@ -1,0 +1,23 @@
+﻿type project
+owners
+    Damian Reeves
+authors 
+    Damian Reeves
+projectUrl
+    http://github.com/DamianReeves/Squirrely
+iconUrl
+    https://raw.githubusercontent.com/Eleven19/ActiveEtl/master/docs/files/img/logo.png
+licenseUrl
+    http://github.com/Eleven19/ActiveEtl/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    Squirrel
+summary
+    A sample WPF app deployed using Squirrel.Windows.
+description
+    A sample WPF app deployed using Squirrel.Windows.
+
+

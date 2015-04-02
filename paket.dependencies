@@ -1,0 +1,12 @@
+source https://www.nuget.org/api/v2
+source C:\Users\Damian\AppData\Local\NuGet\Cache
+
+nuget Nuget.CommandLine 2.8.3
+nuget DeltaCompressionDotNet 1.0.0
+nuget MahApps.Metro 1.1.2.0
+nuget MahApps.Metro.Resources 0.4.0.0
+nuget Microsoft.Web.Xdt 2.1.1
+nuget Mono.Cecil 0.9.5.4
+nuget NuGet.Core 2.8.3
+nuget Splat 1.5.1
+nuget squirrel.windows 0.9.2.1

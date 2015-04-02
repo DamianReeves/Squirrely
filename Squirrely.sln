@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
-		nuget.cmd = nuget.cmd
+		paket.cmd = paket.cmd
 		RELEASE_NOTES.md = RELEASE_NOTES.md
 	EndProjectSection
 EndProject
@@ -17,12 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{08AE46
 		build.fsx = build.fsx
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C5DEB4CB-BDC1-4762-A5A4-3DEC7A1CE30A}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\nuget.exe = .nuget\nuget.exe
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squirrely", "src\Squirrely\Squirrely.csproj", "{E614BE17-FDEF-47D2-BA95-F0D297B07D77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{25477FE3-4C8A-490E-9992-31456A6DEA12}"
+	ProjectSection(SolutionItems) = preProject
+		.paket\paket.bootstrapper.exe = .paket\paket.bootstrapper.exe
+		.paket\paket.targets = .paket\paket.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

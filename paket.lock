@@ -1,0 +1,18 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+  specs:
+    DeltaCompressionDotNet (1.0.0)
+    MahApps.Metro (1.1.2.0)
+    MahApps.Metro.Resources (0.4.0.0)
+      MahApps.Metro (>= 1.0.0)
+    Microsoft.Web.Xdt (2.1.1)
+    Mono.Cecil (0.9.5.4)
+    NuGet.CommandLine (2.8.3)
+    Nuget.Core (2.8.3)
+      Microsoft.Web.Xdt (>= 2.1.0)
+    Splat (1.5.1)
+    squirrel.windows (0.9.2.1)
+      DeltaCompressionDotNet (>= 1.0.0)
+      Mono.Cecil (>= 0.9.5.4)
+      Nuget.Core (>= 2.8.3)
+      Splat (>= 1.5.1)
